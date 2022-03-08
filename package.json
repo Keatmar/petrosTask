@@ -1,0 +1,48 @@
+{
+  "name": "spendtrack",
+  "version": "0.1.2",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.8.1",
+    "@emotion/styled": "11.8.1",
+    "@mui/material": "5.4.4",
+    "@mui/styles": "5.4.4",
+    "antd": "^4.18.9",
+    "assert": "2.0.0",
+    "axios": "0.26.0",
+    "babel": "6.23.0",
+    "jwt-decode": "3.1.2",
+    "lodash": "4.17.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.6",
+    "react-router": "6.2.2",
+    "react-router-dom": "6.2.2",
+    "redux": "4.1.2",
+    "redux-actions": "2.6.5",
+    "redux-persist": "6.0.0",
+    "redux-saga": "1.1.3",
+    "redux-thunk": "2.4.1",
+    "redux-devtools-extension": "2.13.9",
+    "redux-logger": "3.0.6"
+  },
+  "scripts": {
+    "start": "webpack serve --mode=development --progress",
+    "build": "webpack --config webpack.config.js --progress",
+    "build_dep": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "4.4.0"
+  }
+}
