@@ -75,7 +75,6 @@ const MainBar = (props) => {
             onMouseEnter={onHoverNotification}
             onMouseLeave={onHoverNotification}
           />
-          <img src={Burger} onClick={onClickNotification} className={classes.burger} />
         </div>
       </div>
       {showDialog && (
