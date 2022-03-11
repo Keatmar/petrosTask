@@ -2,7 +2,7 @@ import { makeStyles } from '@mui/styles';
 import { height, margin, padding } from '@mui/system';
 export default makeStyles(
   (theme) => ({
-    root: {
+    mainBarRoot: {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
@@ -13,11 +13,7 @@ export default makeStyles(
     },
 
     rightElements: {
-      '& img': {
-       
-     
-     
-      }
+      '& img': {}
     }
   }),
   { name: 'MainBar' }
