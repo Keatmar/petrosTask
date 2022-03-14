@@ -60,8 +60,8 @@ const MainBar = (props) => {
           <input placeholder="Search your friends..." />
         </div>
         <div className={classes.rightElements}>
-          <label>{username}</label>
-          <img src={avatar ? avatar : DefaultAvatar} />
+          <label className={classes.Lb1}>{username}</label>
+          <img className={classes.Avatar1} src={avatar ? avatar : DefaultAvatar} />
           <img
             className={classes.notificationIcon}
             src={rectanglePressed.value ? RectanglePressIcon : RectangleIcon}
