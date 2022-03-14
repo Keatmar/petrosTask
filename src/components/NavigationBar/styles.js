@@ -15,16 +15,19 @@ export default makeStyles(
     rightElements: {
       '& img': {
         padding: '0px 10px 0px 0px',
+        cursor: 'pointer',
       },
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
     },
+
     searchBar: {
       '& input':{
         backgroundColor: '#F5F5F5',
         border: '0px',
         paddingLeft: '10px',
+        outline: 'none',
       },
       display: 'flex',
       border: '0px solid #6D6D6D',
@@ -32,18 +35,20 @@ export default makeStyles(
       padding: '8px 55px 8px 20px',
       backgroundColor: '#F5F5F5',
     },
+
     Lb1: {
       fontFamily: 'Poppins',
       fontWeight: '600',
       padding: '0px 10px',
     },
+
     Avatar1: {
       maxWidth: 'auto',
       height: '40px',
       padding: '0px 10px 0px 0px',
+      cursor: 'default !important',
     },
 
-    
   }),
   { name: 'MainBar' }
 );
