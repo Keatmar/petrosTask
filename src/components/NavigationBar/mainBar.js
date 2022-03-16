@@ -79,11 +79,11 @@ const MainBar = (props) => {
       </div>
       {showDialog && (
         <div className={classes.information}>
-          <label>Information</label>
+          <label className={classes.Label2}>Information</label>
           <div className={classes.info}>
-            <img src={avatar ? avatar : DefaultAvatar} />
+            <img className={classes.Avatar2} src={avatar ? avatar : DefaultAvatar} />
             <div className={classes.infoDetails}>
-              <h5>{username}</h5>
+              <label className={classes.Label3}>{username}</label>
               <Link to="" className={classes.seeProfile}>
                 See your profile
               </Link>
