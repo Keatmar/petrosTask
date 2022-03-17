@@ -39,8 +39,9 @@ export default makeStyles(
     },
 
     Lb1: {
-      fontFamily: 'Poppins',
+      fontFamily: 'Inter',
       fontWeight: '600',
+      fontSize: '14px',
       padding: '0px 10px',
     },
 
@@ -54,32 +55,32 @@ export default makeStyles(
       display: 'flex',
       flexDirection: 'column',
       position: 'absolute',
-      top: '50px',
-      right: '15px',
-      padding: '20px',
+      top: '5.5%',
+      left: '84.5%',
+      padding: '1%',
       backgroundColor: 'white',
-      border: '0.5px solid #D6D6D6',
-      borderRadius: '5px',
-      width: '270px',
-
+      border: '1px solid #E0E5ED',
+      borderRadius: '8px',
+      height: '20%',
+      width: '15%',
     },
 
     Label2: {
-      fontFamily: 'Arial',
+      fontFamily: 'Inter',
       fontWeight: '800',
-      fontSize: '24px',
+      fontSize: '20px',
       marginBottom: '12px',
       color: '#363535',
     },
 
    info: {
      display: 'grid',
-     gridTemplateColumns: '25% auto',
-     columnGap: '8px'
+     gridTemplateColumns: '20% auto',
+     columnGap: '3px'
    },
 
    Avatar2: {
-     height: '60px',
+     height: '48px',
      alignSelf: 'center',
    },
 
@@ -90,28 +91,35 @@ export default makeStyles(
 
   Label3: {
     alignSelf: 'end',
-    fontFamily: 'Arial',
-    fontWeight: 'bold',
+    fontFamily: 'Inter',
+    fontSize: '14px',
+    fontWeight: '500',
     marginBottom: '5px',
     color: '#363535',
   },
 
    seeProfile: {
      alignSelf: 'start',
-     fontFamily: 'Arial',
+     fontFamily: 'Inter',
+     fontSize: '13px',
+     color: '#686E7C',
      textDecorationLine: 'none',
    },
 
    informationLink: {
     '& a':{
       textDecoration: 'none',
-      fontFamily: 'Poppins',
-      fontSize: '18px',
+      fontFamily: 'Inter',
+      fontSize: '15px',
       fontWeight: '600',
-      color: '#5D5D5D',
+      color: '#171A1F',
+      cursor: 'pointer !important',
+      '&:hover': {
+        backgroundColor: '#F5F7F8',
+      }
     },
      display: 'flex',
-     height: '100px',
+     height: '90px',
      flexDirection: 'column',
      justifyContent: 'space-between',
    },
