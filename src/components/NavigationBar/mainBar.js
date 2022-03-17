@@ -89,7 +89,7 @@ const MainBar = (props) => {
               </Link>
             </div>
           </div>
-          <hr />
+          <hr style={{width: '100%'}}/>
           <div className={classes.informationLink}>
             <Link to="">Settings & Privacy</Link>
             <Link to="">Help & Support</Link>

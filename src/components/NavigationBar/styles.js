@@ -55,13 +55,14 @@ export default makeStyles(
       display: 'flex',
       flexDirection: 'column',
       position: 'absolute',
+      boxSizing: 'border-box',
       top: '5.5%',
       left: '84.5%',
       padding: '1%',
       backgroundColor: 'white',
       border: '1px solid #E0E5ED',
       borderRadius: '8px',
-      height: '20%',
+      height: '22%',
       width: '15%',
     },
 
@@ -123,7 +124,7 @@ export default makeStyles(
      flexDirection: 'column',
      justifyContent: 'space-between',
    },
-   
+
   }),
   { name: 'MainBar' }
 );
