@@ -105,6 +105,9 @@ export default makeStyles(
      fontSize: '13px',
      color: '#686E7C',
      textDecorationLine: 'none',
+     '&:hover': {
+      textDecoration: 'underline',
+     }
    },
 
    informationLink: {
@@ -115,8 +118,10 @@ export default makeStyles(
       fontWeight: '600',
       color: '#171A1F',
       cursor: 'pointer !important',
+      height: '22px',
       '&:hover': {
         backgroundColor: '#F5F7F8',
+        
       }
     },
      display: 'flex',
@@ -125,6 +130,12 @@ export default makeStyles(
      justifyContent: 'space-between',
    },
 
+  grammi: {
+    width: '100%',
+  }
+
+  
+  
   }),
   { name: 'MainBar' }
 );

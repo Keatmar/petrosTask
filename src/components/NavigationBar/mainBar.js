@@ -75,6 +75,7 @@ const MainBar = (props) => {
             onMouseEnter={onHoverNotification}
             onMouseLeave={onHoverNotification}
           />
+        <img src={Burger} className={classes.burger} />
         </div>
       </div>
       {showDialog && (
@@ -89,7 +90,7 @@ const MainBar = (props) => {
               </Link>
             </div>
           </div>
-          <hr style={{width: '100%'}}/>
+          <hr className={classes.grammi}/>
           <div className={classes.informationLink}>
             <Link to="">Settings & Privacy</Link>
             <Link to="">Help & Support</Link>
