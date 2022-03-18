@@ -15,8 +15,7 @@ export default makeStyles(
       height: '100vh',
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center',
-      lineHeight: '21px'
+      alignItems: 'center'
     },
 
     root: {
